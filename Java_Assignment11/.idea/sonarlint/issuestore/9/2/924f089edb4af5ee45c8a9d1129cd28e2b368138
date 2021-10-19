@@ -1,0 +1,14 @@
+
+@
+java:S1197"*Move the array designators [] to the type.(êÚ“ß
+\
+java:S1075"ARefactor your code to get this URI from a customizable parameter.(ßé½ ûÿÿÿÿ
+W
+java:S1075"ARefactor your code to get this URI from a customizable parameter.(÷Ð£”
+J
+java:S2864"4Iterate over the "entrySet" instead of the "keySet".(ù•·ï
+S	java:S106 "9Replace this use of System.out or System.err by a logger.(®‡›Èýÿÿÿÿ
+0
+java:S1220""Move this file to a named package.
+`
+java:S2095"EUse try-with-resources or close this "Scanner" in a "finally" clause.(ßé½ ûÿÿÿÿ
