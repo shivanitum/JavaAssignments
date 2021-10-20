@@ -1,0 +1,30 @@
+
+V
+java:S1659"@Declare "age" and all following declarations on a separate line.(ºÄ¸Õ
+Y
+java:S1659"CDeclare "gender" and all following declarations on a separate line.(Â¯×í
+E
+java:S1197*"*Move the array designators [] to the type.(º ìıÿÿÿÿ
+N	java:S106>"9Replace this use of System.out or System.err by a logger.(âª’·
+S	java:S106?"9Replace this use of System.out or System.err by a logger.(ßã“àşÿÿÿÿ
+N	java:S106@"9Replace this use of System.out or System.err by a logger.(éíğï
+N	java:S106A"9Replace this use of System.out or System.err by a logger.(¡Ê¹•
+S	java:S106B"9Replace this use of System.out or System.err by a logger.(Ï¡Ôıÿÿÿÿ
+N	java:S106C"9Replace this use of System.out or System.err by a logger.(ñÍ–®
+N	java:S106E"9Replace this use of System.out or System.err by a logger.(™ªˆÛ
+S	java:S106G"9Replace this use of System.out or System.err by a logger.(—ø­Áüÿÿÿÿ
+S	java:S106I"9Replace this use of System.out or System.err by a logger.(‘ŸôÄÿÿÿÿÿ
+S	java:S106J"9Replace this use of System.out or System.err by a logger.(÷ØâŸşÿÿÿÿ
+W
+java:S1612J"<Replace this lambda with method reference 'Student::getAge'.(÷ØâŸşÿÿÿÿ
+S	java:S106K"9Replace this use of System.out or System.err by a logger.(¤¹ğÃøÿÿÿÿ
+S	java:S106L"9Replace this use of System.out or System.err by a logger.(ì‰œ¾ÿÿÿÿÿ
+N	java:S106M"9Replace this use of System.out or System.err by a logger.(’İÃâ
+i
+java:S1128"TRemove this unnecessary import: same package classes are always implicitly imported.(¬›ãD
+l
+java:S1192-"QDefine a constant instead of duplicating this literal "Computer Science" 7 times.(‘ûíúÿÿÿÿ
+b
+java:S1192-"GDefine a constant instead of duplicating this literal "Female" 6 times.(‘ûíúÿÿÿÿ
+a
+java:S1192/"KDefine a constant instead of duplicating this literal "Electronic" 6 times.(Ôñà
