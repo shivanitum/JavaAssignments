@@ -13,19 +13,21 @@ public class Main {
     public static void main(String args[])
     {
         File directory = new File("/home/sivant/Documents");    //sets the directory to search in
-        Pattern pattern= Pattern.compile(".*\\.txt");  // pattern- ending with .txt
-        File[] fileList = directory.listFiles();   //lists all the files in the directory
-        if(fileList.length>0)
-         {
-             for(File file:fileList)
-             {
-                 Matcher matcher= pattern.matcher(file.getName());
-                 if(matcher.matches())                  //returns true if the filename matches regex
-                 {
-                     System.out.println(file.getName()+" path is "+file.getAbsolutePath());   //prints the path of the filenames matched
-                 }
-             }
-
-         }
+        while(true){
+            System.out.println("Enter pattern");
+            Scanner scanner=new Scanner(System.in);
+            String s1=scanner.next();
+            Pattern pattern= Pattern.compile(s1);
+            File[] fileList = directory.listFiles();   //lists all the files in the directory
+            if(fileList.length>0) {
+                for (File file : fileList) {
+                    Matcher matcher = pattern.matcher(file.getName());
+                    if (matcher.matches())                  //returns true if the filename matches regex
+                    {
+                        System.out.println(file.getName() + " path is " + file.getAbsolutePath());   //prints the path of the filenames matched
+                    }
+                }
+            }
+        }
     }
 }
