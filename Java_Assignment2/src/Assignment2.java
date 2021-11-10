@@ -30,3 +30,5 @@ public class Assignment2 {
            System.out.println("String doesn't contain all the alphabets");
     }
 }
+//time complexity O(n)
+//space complexity O(n)
