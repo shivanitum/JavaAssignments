@@ -7,7 +7,7 @@ public class Main {
     {
         Data data=new Data();
         data.print();
-       // data.anotherPrint(); variables not initialized
+       // data.printLocalVariables(); variables not initialized
       //  Another another=Another.initialize("testing"); non-static variable referenced from static method
        // another.printAnother();
     }

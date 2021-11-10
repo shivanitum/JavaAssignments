@@ -5,7 +5,7 @@ public class Data {
     {
         System.out.println(character+" is char and int is "+number);
     }
-    /* public void anotherPrint()
+    /* public void printLocalVariables()
     {
         int a,b;
         System.out.println(a+" "+b); variables a and b have to be initialized
